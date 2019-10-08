@@ -1,0 +1,207 @@
+
+   
+	
+.wrapper{
+	width: 100%;
+	height: 130%;
+	position: absolute;
+}
+
+body {
+    background-image: url("painted background.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	transition-property: color;
+}
+.toptag{
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+.navbar{
+	background-color: #66A9A9A9;
+	overflow: hidden;
+	width: 95%;
+	float:left;
+}
+.navbar,a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	padding-right: 55px;
+	padding-left: 105px;
+	text-decoration: none;
+	font-size: 20px;
+	font-style: italic;
+	font-family: Georgia, serif;
+}
+
+.navbar a:hover {
+	color: #F7DC6F;
+}
+.first {
+	color: #F7DC6F;
+}
+
+.secwrapper {
+	width: 70%;
+	height:1365px;
+	background: #F1F1E7;
+	float:left;
+	border-radius: 7px;
+}
+
+.bg {
+	width: 100%;
+	height: 50%;
+}
+
+#left, .rijt {
+	width: 15%;
+	height: 600px;
+	float:left;
+}
+
+.botcontact{
+	width: 100%;
+	height: 50%;
+	float: left;
+	border-radius: 7px;
+}
+
+.botleft{
+	width: 32%;
+	height: 100%;
+	float: left;
+}
+
+.main{
+	font-size: 26px;
+	font-style: normal;
+	font-family: Georgia;
+	font-stretch: normal;
+	color: #696969;
+	font-weight: 500;
+	padding-left: 58px;
+}
+
+p{
+	font-size: 18px;
+	font-style: normal;
+	font-family: 'Times New Roman',times,serif;
+	font-stretch: normal;
+	color: #696969;
+	font-weight: 300;
+	padding-left: 42px;
+}
+
+.botright{
+	width: 68%;
+	height: 100%;
+	float: left;
+}
+
+.align{
+	text-align: center;
+	padding-left: 150px;
+	font-size: 26px;
+	font-style: normal;
+	font-family: Georgia;
+	font-stretch: normal;
+	color: #696969;
+	font-weight: normal !important;
+}
+
+#maps {
+	width: 100%;
+	height: 500px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+textarea {
+	height:100px
+}
+
+label, #country, textarea{
+	font-size: 18px;
+	font-style: normal;
+	font-family: 'Times New Roman',times,serif;
+	font-stretch: normal;
+	font-weight: 300;
+}
+
+label{
+	color: #696969;
+}
+
+#country {
+	color: #262626;
+}
+
+input{
+	font-size: 16px;
+	font-style: normal;
+	font-family: 'Times New Roman',times,serif;
+	font-stretch: normal;
+	font-weight:200;
+	color: #262626;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2f2f2f;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #ff7f00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ff6a00;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #F1F1E7;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: right;
+    width: 60%;
+    margin-top: 6px;
+    padding: 20px;
+	padding-right: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

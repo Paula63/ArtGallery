@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Leonid Afremov
+		</title>
+		<meta name="cityscape" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styleth.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="sss.js" ></script>
+		<link rel="stylesheet" href="sss.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="toptag">
+			</div>
+			<div class="navbar" id="pnavbar">
+				<a href="index.html">Home</a>
+				<a href="indext.html">About</a>
+				<a class="first" href="#paintings">Paintings</a>
+				<a href="indexf.html">Contact</a>
+				<a href="javascript:void(0)"; class="icon" onclick="paula()"></a>
+			</div>
+			<br> <br> <br> <br> <br>
+			<div class="bordertop">				
+			</div>
+			<div id="left">
+			</div>
+			<div class="secwrapper">
+				<header>
+					<h3>Some of Leonid Afremov Paintings</h3>
+					<p> Leonid Afremov developed his own unique technique and style which is unmistakable and cannot be confused with other artists. Afremov is mainly known as being a self-representing artist who promotes and sells his work exclusively over the internet with very little exhibitions and involvement of dealers and galleries. </p>
+					<p>Leonid Afremov keeps the majority of his art politically neutral. His paintings are not offensive to anyone nor send any hidden messages. The paintings usually reflect certain personal memories and emotions. Leonid Afremov tries to draw the viewer to have a certain feeling rather than tell a story via the painting, or have the viewer see the world how he sees it. The neutral attributes of Afremov’s art make the paintings appealing to almost any social, ethnic and age group. </p>
+					<p>Human mind works in a peculiar way: we tend to cling to the past and be overcritical about the present. That’s why modern art often comes under attack. We compare new creations with classic masterpieces and seek out the smallest flaws. Perhaps the grass used to be greener a few centuries but it doesn’t mean that talented people stopped being born in our lifetime – Leonid Afremov</p>
+				</header>
+				<div class="slider">
+					<img src="image backg.jpg" class="padding" >
+					<img src="park painting.jpg" class="padding">
+					<img src="painting bridge.jpg" class="padding">
+					<img src="image bg.jpg" class="padding">
+					<img src="paintings-leonid-afremov.jpg" class="padding">
+					<img src="leonid painting.jpg" class="padding">			
+				</div>
+			</div>
+		</div>
+		<script>
+			$('.slider').sss({
+				slideShow : true,
+			});
+		</script>
+		<script>
+			function paula(){
+				var nav= document.getElementById("pnavbar");
+				if (nav.className==="navbar"){
+					nav.className+="responsive";
+				}
+				else {
+					nav.className="navbar";
+				}
+			}
+		</script>
+	</body>
+</html>

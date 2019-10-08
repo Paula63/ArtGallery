@@ -1,0 +1,94 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>
+			Leonid Afremov
+		</title>
+		<link rel="stylesheet" href="stylef.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="toptag">
+			</div>
+			<div class="navbar" id="pnavbar">
+				<a href="index.html">Home</a>
+				<a href="indext.html">About</a>
+				<a href="indexth.html">Paintings</a>
+				<a class="first" href="#contact">Contact</a>
+				<a href="javascript:void(0)"; class="icon" onclick="paula()"></a>
+			</div>
+			<br> <br> <br> <br>  <br>   <br>   <br>      <br>      <br>      <br>     <br>    <br>
+			<div id="left">
+			</div>
+			<div class="secwrapper">
+				<div class="topcontact">
+					<img class="bg" src="painted background small.jpg" >
+				</div>			
+				<div class="botcontact">
+					<div class="botleft">
+						<h3 class="main">Leonid Afremov</h3>
+						<p>National Gallery of Copenhagen,</p>
+						<p>	48-50 Sølvgade,</p>
+						<p> 1307 Copenhagen, Denmark</p>
+						<br>
+						<p>Website: www.smk.dk</p>
+						<p>Tel: +453-374-9484</p>
+						<p> Fax: +453-374-8494</p>
+					</div>
+					
+					<div class="botright">
+						<div class="container">
+							<div class="align">
+								<h3>Contact Gallery</h3>	
+							</div>
+							<div class="row">
+								<div class="column">
+									<div id="map"></div>
+								</div>
+								<div class="column">
+									<form action="/action_page.php">
+										<label for="fname">First Name</label>
+										<input type="text" id="fname" name="firstname" placeholder="Please enter your first name">
+										<label for="lname">Last Name</label>
+										<input type="text" id="lname" name="lastname" placeholder="Please enter your last name">
+										<label for="country">Country</label>
+										<select id="country" name="country">
+											<option value="australia">Australia</option>	
+											<option value="brazil">Brazil</option>
+											<option value="canada">Canada</option>
+											<option value="china">China</option>
+											<option value="egypt">Egypt</option>
+											<option value="england">England</option>
+											<option value="france">France</option>
+											<option value="germany">Germany</option>	
+											<option value="italy">Italy</option>	
+											<option value="japan">Japan</option>
+											<option value="mexico">Mexico</option>
+											<option value="nigeria">Nigeria</option>
+											<option value="spain">Spain</option>	
+											<option value="usa">USA</option>	
+										</select>
+										<label for="subject">Subject</label> <textarea id="subject"name="subject" placeholder="Please enter message here"></textarea>
+										<input type="submit" value="Submit">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="rijt">
+			</div>	
+			<script>
+				function paula(){
+					var nav= document.getElementById("pnavbar");
+					if (nav.className==="navbar"){
+						nav.className+="responsive";
+					}
+					else {
+						nav.className="navbar";
+					}
+				}
+		</script>
+	</body>
+</html>
